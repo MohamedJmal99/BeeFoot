@@ -14,26 +14,30 @@
     <header>
         <nav>
             <div class="main-header">
-            <div class="header">
-                <div class="header-logo">
-                    <img src="{{ asset('images/logo.png') }}" alt="BeeFoot-logo">
-                </div>
-                <div class="header-menu">
-                    <li>
-                        <a href="">Accueil</a>
-                    </li>
-                    <li>
-                        <a href="">Nos Activités</a>
-                    </li>
-                    <li>
-                        <a href="">Contactez-nous</a>
-                    </li>
-                    <li>
-                        <a href="">Se Connectez</a>
-                    </li>
+                <div class="header">
+                    <div class="header-logo">
+                        <a href="{{ url('/') }}">
+                            <img src="{{ asset('images/logo.png') }}" alt="BeeFoot-logo">
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <ul>
+                            <li>
+                                <a href="{{ url('/') }}">Accueil</a>
+                            </li>
+                            <li>
+                                <a href="{{ url('/nos-activites') }}">Nos Activités</a>
+                            </li>
+                            <li>
+                                <a href="{{ url('/contact') }}">Contactez-nous</a>
+                            </li>
+                            <li>
+                                <a href="">Se Connecter</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         </nav>
     </header>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>

@@ -33,3 +33,7 @@
     max-width: 61px;
     max-height: 61px;
 }
+.header-menu ul{
+    display: flex;
+    margin: 0px !important;
+}
