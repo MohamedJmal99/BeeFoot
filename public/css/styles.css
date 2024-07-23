@@ -1,0 +1,35 @@
+.main-header{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    min-width: 1400px;
+}
+.header-menu{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    padding: 10px;
+}
+.header-menu li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+}
+.header-logo{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.header-logo img {
+    max-width: 61px;
+    max-height: 61px;
+}
