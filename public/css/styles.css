@@ -84,46 +84,59 @@
 .footer-savoir-plus ul li a:hover{
     padding-left: 10px !important;
     transition: 0.7s ease-in-out;
+    color: #008000f0;
 }
-.footer-contact ul li a {
+/* .footer-contact ul li a {
     margin: auto 10px;
-}
+} */
 .footer-rejoignez-nous ul{
     display: flex;
-}
-.footer-rejoignez-nous ul li i {
-    margin: auto 10px;
 }
 .footer-savoir-plus-title::after , .footer-rejoignez-nous-title::after , .footer-contact-title::after {
     content: '';
     position: absolute;
-    height: 3px;
-    background: #5f8b34;
+    height: 2px;
+    background: #008000f0;
     border-radius: 10px;
     width: 3%;
 }
 .footer-savoir-plus{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .footer-savoir-plus ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .footer-contact{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .footer-contact ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .footer-rejoignez-nous{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+}
+.footer-rejoignez-nous ul li i {
+    font-size: 18px;
+    border: 1px solid;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50%;
+    color: #008000f0;
+}
+.footer-rejoignez-nous ul{
+    gap: 15px;
+}
+.footer-rejoignez-nous ul li i:hover {
+    background: #008000f0;
+    color: #fff;
+    transition: 0.7s ease-in-out;
 }
