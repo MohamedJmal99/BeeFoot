@@ -14,6 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // Return the 'accueil' view
     return view('accueil');
+
+    // Simulate a 500 Internal Server Error
+    abort(500);
 });
 
+Route::get('/contact', function () {
+    // Return the 'accueil' view
+    return view('contact');
+});
+
+Route::get('/nos-activites', function () {
+    // Return the 'accueil' view
+    return view('activite');
+});
