@@ -95,8 +95,9 @@ li#header-item-5 {
 .footer-savoir-plus ul li a:hover {
     padding-left: 10px !important;
     transition: 0.7s ease-in-out;
+    color: #008000f0;
 }
-.footer-contact ul li a {
+/* .footer-contact ul li a {
     margin: auto 10px;
 }
 .footer-rejoignez-nous ul {
@@ -110,15 +111,15 @@ li#header-item-5 {
 .footer-contact-title::after {
     content: "";
     position: absolute;
-    height: 3px;
-    background: #5f8b34;
+    height: 2px;
+    background: #008000f0;
     border-radius: 10px;
     width: 3%;
 }
 .footer-savoir-plus {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .footer-savoir-plus ul {
     display: flex;

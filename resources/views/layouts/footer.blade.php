@@ -33,8 +33,8 @@
                         <h3>contact</h3>
                     </div>
                     <ul>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:Kravel@Galion.Com">Kravel@Galion.Com</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:+216 71 308 500">+216 71 308 500</a></li>
+                        <li><a href="mailto:Kravel@Galion.Com">Kravel@Galion.Com</a></li>
+                        <li><a href="tel:+216 71 308 500">+216 71 308 500</a></li>
                     </ul>
                 </div>
                 <div class="footer-rejoignez-nous">
@@ -42,9 +42,9 @@
                         <h3>REJOIGNEZ-NOUS</h3>
                     </div>
                     <ul>
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -52,5 +52,4 @@
     </footer>
 
 </body>
-
 </html>
